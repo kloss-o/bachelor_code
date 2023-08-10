@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-06-20">
+    <creator>NetworkX 2.8.8</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="7" title="membership" type="boolean" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="data_hash" type="string" />
+      <attribute id="2" title="Python_name" type="string" />
+      <attribute id="3" title="Time Interval" type="string" />
+      <attribute id="4" title="hash_type" type="string" />
+      <attribute id="5" title="File_path" type="string" />
+      <attribute id="6" title="execution_order" type="long" />
+    </attributes>
+    <nodes>
+      <node id="urn:fz-juelich.de:alpaca:object:Python:builtins.list:279a79f5720791314092b46a58990c0be52b8286" label="list">
+        <attvalues>
+          <attvalue for="0" value="object" />
+          <attvalue for="1" value="279a79f5720791314092b46a58990c0be52b8286" />
+          <attvalue for="2" value="builtins.list" />
+          <attvalue for="3" value="&lt;[1.0,1.0];[2.0,2.0]&gt;" />
+        </attvalues>
+      </node>
+      <node id="urn:fz-juelich.de:alpaca:object:Python:builtins.tuple:bcfb8c79dc28237f11533d1f141f0ee6aeb32f3c" label="tuple">
+        <attvalues>
+          <attvalue for="0" value="object" />
+          <attvalue for="1" value="bcfb8c79dc28237f11533d1f141f0ee6aeb32f3c" />
+          <attvalue for="2" value="builtins.tuple" />
+          <attvalue for="3" value="&lt;[2.0,2.0];[3.0,3.0]&gt;" />
+        </attvalues>
+      </node>
+      <node id="urn:fz-juelich.de:alpaca:file:sha256:ae5acbb8863aca3eb1f07c894884a08d16f92e803f9a85383ee8e0351ac82f09" label="File">
+        <attvalues>
+          <attvalue for="0" value="file" />
+          <attvalue for="1" value="ae5acbb8863aca3eb1f07c894884a08d16f92e803f9a85383ee8e0351ac82f09" />
+          <attvalue for="4" value="sha256" />
+          <attvalue for="5" value="/home/kloss/Documents/Vorlesungen/5_Semester/Seminararbeit_code/prov-comparison/scripts/../data/spiketrain_size_count_new1.png" />
+          <attvalue for="3" value="&lt;[3.0,3.0]&gt;" />
+        </attvalues>
+      </node>
+      <node id="urn:fz-juelich.de:alpaca:file:sha256:d774bd8e7cdd5a32116f4bdb4139ab44d019f5796e2e907557d5bf35ecf0e836" label="File">
+        <attvalues>
+          <attvalue for="0" value="file" />
+          <attvalue for="1" value="d774bd8e7cdd5a32116f4bdb4139ab44d019f5796e2e907557d5bf35ecf0e836" />
+          <attvalue for="4" value="sha256" />
+          <attvalue for="5" value="/home/kloss/Documents/Vorlesungen/5_Semester/Seminararbeit_code/prov-comparison/scripts/../data/spiketrain_list" />
+          <attvalue for="3" value="&lt;[1.0,1.0]&gt;" />
+        </attvalues>
+      </node>
+      <node id="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#e6100e0c-1617-4174-a96f-8b12aeb55eb6" label="plot_spike_rates">
+        <attvalues>
+          <attvalue for="2" value="__main__.plot_spike_rates" />
+          <attvalue for="0" value="function" />
+          <attvalue for="6" value="3" />
+          <attvalue for="3" value="&lt;[3.0,3.0]&gt;" />
+        </attvalues>
+      </node>
+      <node id="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#97a68ef4-89d2-4d1f-8052-c0622a32686d" label="load_data2">
+        <attvalues>
+          <attvalue for="2" value="__main__.load_data2" />
+          <attvalue for="0" value="function" />
+          <attvalue for="6" value="1" />
+          <attvalue for="3" value="&lt;[1.0,1.0]&gt;" />
+        </attvalues>
+      </node>
+      <node id="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#5dcbaddd-0a9c-4681-be50-7a95d2bd41db" label="test_data">
+        <attvalues>
+          <attvalue for="2" value="__main__.test_data" />
+          <attvalue for="0" value="function" />
+          <attvalue for="6" value="2" />
+          <attvalue for="3" value="&lt;[2.0,2.0]&gt;" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="urn:fz-juelich.de:alpaca:object:Python:builtins.list:279a79f5720791314092b46a58990c0be52b8286" target="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#5dcbaddd-0a9c-4681-be50-7a95d2bd41db" id="0">
+        <attvalues>
+          <attvalue for="7" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="urn:fz-juelich.de:alpaca:object:Python:builtins.tuple:bcfb8c79dc28237f11533d1f141f0ee6aeb32f3c" target="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#e6100e0c-1617-4174-a96f-8b12aeb55eb6" id="1">
+        <attvalues>
+          <attvalue for="7" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="urn:fz-juelich.de:alpaca:file:sha256:d774bd8e7cdd5a32116f4bdb4139ab44d019f5796e2e907557d5bf35ecf0e836" target="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#97a68ef4-89d2-4d1f-8052-c0622a32686d" id="2">
+        <attvalues>
+          <attvalue for="7" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#e6100e0c-1617-4174-a96f-8b12aeb55eb6" target="urn:fz-juelich.de:alpaca:file:sha256:ae5acbb8863aca3eb1f07c894884a08d16f92e803f9a85383ee8e0351ac82f09" id="3">
+        <attvalues>
+          <attvalue for="7" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#97a68ef4-89d2-4d1f-8052-c0622a32686d" target="urn:fz-juelich.de:alpaca:object:Python:builtins.list:279a79f5720791314092b46a58990c0be52b8286" id="4">
+        <attvalues>
+          <attvalue for="7" value="false" />
+        </attvalues>
+      </edge>
+      <edge source="urn:fz-juelich.de:alpaca:function_execution:Python:8359d56aa12c9a9748057863cec88a918b39603a2b2e6df7ed238ff57b0b10c4:70f347dc-255e-4d65-9554-abc49e92c3c9#5dcbaddd-0a9c-4681-be50-7a95d2bd41db" target="urn:fz-juelich.de:alpaca:object:Python:builtins.tuple:bcfb8c79dc28237f11533d1f141f0ee6aeb32f3c" id="5">
+        <attvalues>
+          <attvalue for="7" value="false" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
